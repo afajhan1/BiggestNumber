@@ -5,18 +5,27 @@ using namespace std; //so we don't need the prefix std::
 
 int main()
 {
- int value1,value2;
+ int ValueOne,ValueTwo;
 
   cout<<"Please enter a whole number:\n";
 
-cin>> value1; 
+cin>> ValueOne; 
 
 cout<<"Please enter another whole number:\n";
 
-cin>>value2;
+cin>>ValueTwo;
 
-cout<<"Of those two numbers, the biggest is: ";
-  cout<<endl<<"Thank you for playing.\n";
+if( ValueOne > ValueTwo ) {
+
+cout<< "Of those two numbers, the biggest is : "<<ValueOne;
+}
+
+else {
+
+cout<<"Of those two numbers, the biggest is : "<<ValueTwo;
+}  
+
+cout<<endl<<"Thank you for playing.\n" ;
 
   return 0;
 }
