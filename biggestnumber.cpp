@@ -17,12 +17,12 @@ cin>>ValueTwo;
 
 if( ValueOne > ValueTwo ) {
 
-cout<< "Of those two numbers, the biggest is : "<<ValueOne;
+cout<< "Of those two numbers, the biggest is: "<<ValueOne;
 }
 
 else {
 
-cout<<"Of those two numbers, the biggest is : "<<ValueTwo;
+cout<<"Of those two numbers, the biggest is: "<<ValueTwo;
 }  
 
 cout<<endl<<"Thank you for playing.\n" ;
